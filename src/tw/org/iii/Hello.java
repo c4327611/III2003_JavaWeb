@@ -1,6 +1,8 @@
 package tw.org.iii;
 
 import java.io.IOException;
+import java.util.Enumeration;
+
 import javax.servlet.ServletException;
 import javax.servlet.ServletRequest;
 import javax.servlet.ServletResponse;
@@ -17,18 +19,37 @@ public class Hello extends HttpServlet {
 
 	
 	
-    @Override
-	public void init() throws ServletException {
-		System.out.println("init()");
-		super.init();
-	}
+//    @Override
+//	public void init() throws ServletException {
+//		System.out.println("init()");
+//		super.init();
+//	}
     
     @Override
-    public void service(ServletRequest request, ServletResponse arg1) throws ServletException, IOException {
+    public void service(ServletRequest request, ServletResponse response) throws ServletException, IOException {
     	System.out.println("service()");
+    	
+    	try{
+    	HttpServletRequest req = (HttpServletRequest)request;
+    	String method = req.getMethod();
+    	System.out.println(method);
+    	}catch(ClassCastException ce){
+    		System.out.println(ce.toString());
+    	}
+    	
     	//super.service(arg0, arg1);
-    String key1 = request.getParameter("key1");
-    System.out.println("key1"+key1);
+//no.01    	
+//    String key1 = request.getParameter("key1");
+//    System.out.println("key1"+key1);
+//    String key2 = request.getParameter("key2");
+//    System.out.println("key2"+key2);
+
+//no.02
+    Enumeration<String> ps = request.getParameterNames();
+    while(ps.hasMoreElements()){
+    	String item = ps.nextElement();
+    	String value = request.getParameter(item);
+    	System.out.println(item+"=>"+value);}
     }
     
 
