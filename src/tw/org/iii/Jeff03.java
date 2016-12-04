@@ -55,7 +55,7 @@ public class Jeff03 extends HttpServlet {
 	out.println("<option value=1>+</option>");
 	out.println("<option value=2>-</option>");
 	out.println("<option value=3>x</option>");
-	out.println("<option value=4>/</option>");
+	out.println("<option value=4 selected>/</option>");
 	out.println("<select>");
 	out.println("<input type='text' name='y' value='"+y+"' />");
 	out.println("<input type='submit' value='=' />");

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" metadata-complete="true" version="3.1">
+  <servlet>
+    <servlet-name>MyJeff05</servlet-name>
+    <servlet-class>tw.org.iii.Jeff05</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>MyJeff05</servlet-name>
+    <url-pattern>/Jeff05</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Jeff07</servlet-name>
+    <servlet-class>tw.org.iii.Jeff07</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Jeff07</servlet-name>
+    <url-pattern>/Jeff07</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Jeff08</servlet-name>
+    <servlet-class>tw.org.iii.Jeff08</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Jeff08</servlet-name>
+    <url-pattern>/Jeff08</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>Jeff09</servlet-name>
+    <servlet-class>tw.org.iii.Jeff09</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Jeff09</servlet-name>
+    <url-pattern>/Jeff09</url-pattern>
+  </servlet-mapping>
+  <servlet>
+  
+    <servlet-name>Jeff10</servlet-name>
+    <servlet-class>tw.org.iii.Jeff10</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Jeff10</servlet-name>
+    <url-pattern>/Jeff10</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>Jeff11</servlet-name>
+    <servlet-class>tw.org.iii.Jeff11</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Jeff11</servlet-name>
+    <url-pattern>/Jeff11</url-pattern>
+  </servlet-mapping>
+  
+  <context-param>
+    <description>檔案上傳目錄</description>
+    <param-name>upload-path</param-name>
+    <param-value>C:\javaee\workspace\JavaWeb\WebContent\upload</param-value>
+  </context-param>
+</web-app>
