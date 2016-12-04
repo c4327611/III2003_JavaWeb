@@ -24,7 +24,6 @@
     <servlet-name>Jeff08</servlet-name>
     <url-pattern>/Jeff08</url-pattern>
   </servlet-mapping>
-  
   <servlet>
     <servlet-name>Jeff09</servlet-name>
     <servlet-class>tw.org.iii.Jeff09</servlet-class>
@@ -34,7 +33,6 @@
     <url-pattern>/Jeff09</url-pattern>
   </servlet-mapping>
   <servlet>
-  
     <servlet-name>Jeff10</servlet-name>
     <servlet-class>tw.org.iii.Jeff10</servlet-class>
   </servlet>
@@ -42,7 +40,6 @@
     <servlet-name>Jeff10</servlet-name>
     <url-pattern>/Jeff10</url-pattern>
   </servlet-mapping>
-  
   <servlet>
     <servlet-name>Jeff11</servlet-name>
     <servlet-class>tw.org.iii.Jeff11</servlet-class>
@@ -51,7 +48,60 @@
     <servlet-name>Jeff11</servlet-name>
     <url-pattern>/Jeff11</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <servlet-name>Jeff12</servlet-name>
+    <servlet-class>tw.org.iii.Jeff12</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Jeff12</servlet-name>
+    <url-pattern>/Jeff12</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Jeff13</servlet-name>
+    <servlet-class>tw.org.iii.Jeff13</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Jeff13</servlet-name>
+    <url-pattern>/Jeff13</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Jeff14</servlet-name>
+    <servlet-class>tw.org.iii.Jeff14</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Jeff14</servlet-name>
+    <url-pattern>/Jeff14</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Jeff15</servlet-name>
+    <servlet-class>tw.org.iii.Jeff15</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Jeff15</servlet-name>
+    <url-pattern>/Jeff15</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Jeff16</servlet-name>
+    <servlet-class>tw.org.iii.Jeff16</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Jeff16</servlet-name>
+    <url-pattern>/Jeff16</url-pattern>
+  </servlet-mapping>
   
+  <servlet>
+    <servlet-name>Jeff17</servlet-name>
+    <servlet-class>tw.org.iii.Jeff17</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Jeff17</servlet-name>
+    <url-pattern>/Jeff17</url-pattern>
+  </servlet-mapping>
+  <context-param>
+    <description>My Tepmplate</description>
+    <param-name>template-path</param-name>
+    <param-value>C:\javaee\workspace\JavaWeb\WebContent\temates</param-value>
+  </context-param>
   <context-param>
     <description>檔案上傳目錄</description>
     <param-name>upload-path</param-name>
