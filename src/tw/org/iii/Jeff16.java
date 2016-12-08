@@ -72,7 +72,7 @@ public class Jeff16 extends HttpServlet {
 		try {
 			PreparedStatement pstmt = 
 					conn.prepareStatement(
-							"insert into member (account,passwd,realname) " +
+							"insert into member (account,passwd,realname) " + 
 							"values (?,?,?)");
 			pstmt.setString(1, account);
 			pstmt.setString(2, passwd);
@@ -152,7 +152,7 @@ public class Jeff16 extends HttpServlet {
 			out.print(String.format(
 					"<td><a href=?delid=%s onclick='return isDelete(\"%s\");'>Delete</a></td>",
 					row.get(fields[0]), row.get(fields[1])));
-			out.println(String.format("<td><a href='Brad17?editid=%s'>Edit</a></td>", row.get(fields[0])));
+			out.println(String.format("<td><a href='Jeff17?editid=%s'>Edit</a></td>", row.get(fields[0])));
 			out.print("</tr>");
 		}
 		out.print("</table>");
