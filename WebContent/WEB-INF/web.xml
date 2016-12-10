@@ -88,7 +88,6 @@
     <servlet-name>Jeff16</servlet-name>
     <url-pattern>/Jeff16</url-pattern>
   </servlet-mapping>
-  
   <servlet>
     <servlet-name>Jeff17</servlet-name>
     <servlet-class>tw.org.iii.Jeff17</servlet-class>
@@ -97,10 +96,66 @@
     <servlet-name>Jeff17</servlet-name>
     <url-pattern>/Jeff17</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <servlet-name>Jeff18</servlet-name>
+    <servlet-class>tw.org.iii.Jeff18</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Jeff18</servlet-name>
+    <url-pattern>/Jeff18</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Jeff19</servlet-name>
+    <servlet-class>tw.org.iii.Jeff19</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Jeff19</servlet-name>
+    <url-pattern>/Jeff19</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>Jeff20</servlet-name>
+    <servlet-class>tw.org.iii.Jeff20</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Jeff20</servlet-name>
+    <url-pattern>/Jeff20</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>Jeff21</servlet-name>
+    <servlet-class>tw.org.iii.Jeff21</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Jeff21</servlet-name>
+    <url-pattern>/Jeff21</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>Jeff24</servlet-name>
+    <servlet-class>tw.org.iii.Jeff24</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Jeff24</servlet-name>
+    <url-pattern>/Jeff24</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>Jeff25</servlet-name>
+    <servlet-class>tw.org.iii.Jeff25</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Jeff25</servlet-name>
+    <url-pattern>/Jeff25</url-pattern>
+  </servlet-mapping>
   <context-param>
     <description>My Tepmplate</description>
     <param-name>template-path</param-name>
     <param-value>C:\javaee\workspace\JavaWeb\WebContent\temates</param-value>
+  </context-param>
+  <context-param>
+    <description>Image Folder</description>
+    <param-name>images-path</param-name>
+    <param-value>C:\Users\user\git\III2003_JavaWeb\WebContent\images</param-value>
   </context-param>
   <context-param>
     <description>檔案上傳目錄</description>
