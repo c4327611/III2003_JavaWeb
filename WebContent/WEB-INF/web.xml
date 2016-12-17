@@ -184,7 +184,6 @@
     <servlet-name>Jeff31</servlet-name>
     <url-pattern>/Jeff31</url-pattern>
   </servlet-mapping>
-  
   <servlet>
     <servlet-name>Jeff32</servlet-name>
     <servlet-class>tw.org.iii.Jeff32</servlet-class>
